@@ -1,0 +1,286 @@
+@font-face {
+    font-family:                        'fbgallery';
+    src:                                url('../fonts/fbgallery-icons/fbgallery.eot?') format('eot'), url('../fonts/fbgallery-icons/fbgallery.eot?#iefix') format('embedded-opentype'), url('../fonts/fbgallery-icons/fbgallery.woff') format('woff'), url('../fonts/fbgallery-icons/fbgallery.ttf') format('truetype'), url('../fonts/fbgallery-icons/fbgallery.svg#fbgallery') format('svg');
+    font-weight:                        normal;
+    font-style:                         normal;
+}
+
+[class^="ts-fbgallery-"],[class*=" ts-fbgallery-"] {
+    font-family:                        'fbgallery';
+    speak:                              none;
+    font-style:                         normal;
+    font-weight:                        normal;
+    font-variant:                       normal;
+    text-transform:                     none;
+    line-height:                        1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing:             antialiased;
+    -moz-osx-font-smoothing:            grayscale;
+}
+[class^="ts-fbgallery-"]:before,[class*=" ts-fbgallery-"]:before {
+    text-decoration:                    inherit;
+    display:                            inline-block;
+    speak:                              none;
+}
+a [class^="ts-fbgallery-"],a [class*=" ts-fbgallery-"] {
+    display:                            inline-block;
+}
+
+.ts-fbgallery-check:before {
+	content: "\e64d";
+}
+.ts-fbgallery-link2:before {
+	content: "\e635";
+}
+.ts-fbgallery-file1:before {
+	content: "\e636";
+}
+.ts-fbgallery-file4:before {
+	content: "\e637";
+}
+.ts-fbgallery-file5:before {
+	content: "\e638";
+}
+.ts-fbgallery-file6:before {
+	content: "\e639";
+}
+.ts-fbgallery-file9:before {
+	content: "\e63a";
+}
+.ts-fbgallery-top:before {
+	content: "\e63c";
+}
+.ts-fbgallery-delete:before {
+	content: "\e640";
+}
+.ts-fbgallery-delete2:before {
+	content: "\e641";
+}
+.ts-fbgallery-delete3:before {
+	content: "\e642";
+}
+.ts-fbgallery-delete4:before {
+	content: "\e643";
+}
+.ts-fbgallery-delete5:before {
+	content: "\e644";
+}
+.ts-fbgallery-delete6:before {
+	content: "\e645";
+}
+.ts-fbgallery-delete7:before {
+	content: "\e646";
+}
+.ts-fbgallery-delete8:before {
+	content: "\e647";
+}
+.ts-fbgallery-stumbleupon:before {
+	content: "\e600";
+}
+.ts-fbgallery-back1:before {
+	content: "\e601";
+}
+.ts-fbgallery-back2:before {
+	content: "\e602";
+}
+.ts-fbgallery-back3:before {
+	content: "\e603";
+}
+.ts-fbgallery-info4:before {
+	content: "\e604";
+}
+.ts-fbgallery-info2:before {
+	content: "\e605";
+}
+.ts-fbgallery-likes:before {
+	content: "\e606";
+}
+.ts-fbgallery-twitter:before {
+	content: "\e607";
+}
+.ts-fbgallery-likes2:before {
+	content: "\e608";
+}
+.ts-fbgallery-disk:before {
+	content: "\e609";
+}
+.ts-fbgallery-user:before {
+	content: "\e64f";
+}
+.ts-fbgallery-user2:before {
+	content: "\e650";
+}
+.ts-fbgallery-user3:before {
+	content: "\e651";
+}
+.ts-fbgallery-user4:before {
+	content: "\e652";
+}
+.ts-fbgallery-user5:before {
+	content: "\e653";
+}
+.ts-fbgallery-user6:before {
+	content: "\e654";
+}
+.ts-fbgallery-user7:before {
+	content: "\e655";
+}
+.ts-fbgallery-delete9:before {
+	content: "\e648";
+}
+.ts-fbgallery-delete10:before {
+	content: "\e649";
+}
+.ts-fbgallery-delete11:before {
+	content: "\e64a";
+}
+.ts-fbgallery-delete12:before {
+	content: "\e64b";
+}
+.ts-fbgallery-top2:before {
+	content: "\e63d";
+}
+.ts-fbgallery-top3:before {
+	content: "\e63e";
+}
+.ts-fbgallery-top4:before {
+	content: "\e63f";
+}
+.ts-fbgallery-first:before {
+	content: "\e60a";
+}
+.ts-fbgallery-last:before {
+	content: "\e60b";
+}
+.ts-fbgallery-likes3:before {
+	content: "\e60c";
+}
+.ts-fbgallery-comment:before {
+	content: "\e60d";
+}
+.ts-fbgallery-comment2:before {
+	content: "\e60e";
+}
+.ts-fbgallery-comment3:before {
+	content: "\e60f";
+}
+.ts-fbgallery-comment4:before {
+	content: "\e610";
+}
+.ts-fbgallery-comment5:before {
+	content: "\e611";
+}
+.ts-fbgallery-comment6:before {
+	content: "\e612";
+}
+.ts-fbgallery-disk2:before {
+	content: "\e613";
+}
+.ts-fbgallery-previous:before {
+	content: "\e614";
+}
+.ts-fbgallery-previous2:before {
+	content: "\e615";
+}
+.ts-fbgallery-previous3:before {
+	content: "\e616";
+}
+.ts-fbgallery-next:before {
+	content: "\e617";
+}
+.ts-fbgallery-next2:before {
+	content: "\e618";
+}
+.ts-fbgallery-next3:before {
+	content: "\e619";
+}
+.ts-fbgallery-filter:before {
+	content: "\e61a";
+}
+.ts-fbgallery-filter2:before {
+	content: "\e61b";
+}
+.ts-fbgallery-search:before {
+	content: "\e61c";
+}
+.ts-fbgallery-search2:before {
+	content: "\e61d";
+}
+.ts-fbgallery-download2:before {
+	content: "\e61e";
+}
+.ts-fbgallery-download3:before {
+	content: "\e61f";
+}
+.ts-fbgallery-download4:before {
+	content: "\e620";
+}
+.ts-fbgallery-download5:before {
+	content: "\e621";
+}
+.ts-fbgallery-download7:before {
+	content: "\e622";
+}
+.ts-fbgallery-download8:before {
+	content: "\e623";
+}
+.ts-fbgallery-link:before {
+	content: "\e624";
+}
+.ts-fbgallery-google:before {
+	content: "\e625";
+}
+.ts-fbgallery-googleplus1:before {
+	content: "\e626";
+}
+.ts-fbgallery-googleplus2:before {
+	content: "\e627";
+}
+.ts-fbgallery-googleplus3:before {
+	content: "\e628";
+}
+.ts-fbgallery-facebook2:before {
+	content: "\e629";
+}
+.ts-fbgallery-twitter3:before {
+	content: "\e62a";
+}
+.ts-fbgallery-twitter1:before {
+	content: "\e62b";
+}
+.ts-fbgallery-twitter2:before {
+	content: "\e62c";
+}
+.ts-fbgallery-stumbleupon1:before {
+	content: "\e62d";
+}
+.ts-fbgallery-fax1:before {
+	content: "\e62e";
+}
+.ts-fbgallery-check2:before {
+	content: "\e64e";
+}
+.ts-fbgallery-uniE64C:before {
+	content: "\e64c";
+}
+.ts-fbgallery-print:before {
+	content: "\e62f";
+}
+.ts-fbgallery-filter3:before {
+	content: "\e630";
+}
+.ts-fbgallery-sort:before {
+	content: "\e631";
+}
+.ts-fbgallery-link6:before {
+	content: "\e632";
+}
+.ts-fbgallery-google-plus-sign:before {
+	content: "\e633";
+}
+.ts-fbgallery-facebook4:before {
+	content: "\e634";
+}
+.ts-fbgallery-info1:before {
+	content: "\e63b";
+}

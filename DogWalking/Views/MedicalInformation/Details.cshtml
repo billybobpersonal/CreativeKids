@@ -1,0 +1,74 @@
+﻿@model DogWalking.Models.MedicalInformationModel
+
+@{
+    Layout = "~/Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>MedicalInformationModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Alergies)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Alergies)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MedicalAidName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MedicalAidName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MedicalAidNumber)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MedicalAidNumber)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PrincipalMember)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PrincipalMember)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HouseDoctorName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HouseDoctorName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HouseDoctorNumber)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HouseDoctorNumber)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

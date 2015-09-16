@@ -1,0 +1,46 @@
+﻿@model IEnumerable<DogWalking.Models.Registration>
+
+@{
+    Layout = "~/Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Child.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Child.LastName)
+            </th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => item.Child.FirstName)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Child.LastName)
+            </th>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @*@Html.ActionLink("Details", "Details", new { id=item.Id }) |*@
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

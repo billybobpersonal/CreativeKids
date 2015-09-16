@@ -1,0 +1,51 @@
+﻿@model DogWalking.Models.BakingClassModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BakingClassModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ClassTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClassTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxNumberOfAttendees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxNumberOfAttendees)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxAge)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BakingClassId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

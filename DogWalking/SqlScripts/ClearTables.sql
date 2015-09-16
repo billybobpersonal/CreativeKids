@@ -1,0 +1,6 @@
+﻿delete from Registrations
+delete from ChildModels
+delete from ParentModels
+delete from ParentModelChildModels
+delete from EmergencyContactModels
+delete from MedicalInformationModels
