@@ -8,7 +8,6 @@ namespace DogWalking.Models
     {
         [Key]
         public Guid ParentId { get; set; }
-        public Guid ParentUserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Sex { get; set; }

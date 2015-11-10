@@ -5,7 +5,7 @@
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />
     </p>
-    <div class="form-horizontal form-padding">
+    <div class="form-horizontal">
         <h4>Enter verification code</h4>
         <hr />
         <asp:HiddenField runat="server" ID="PhoneNumber" />

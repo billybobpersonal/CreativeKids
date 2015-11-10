@@ -12,7 +12,8 @@
 	margin-right: 					auto;
 	margin-bottom:					20px;
 	position: 						relative;
-	background:						url('images/galleries_bg.gif') repeat;
+	/*background:						url('images/galleries_bg.gif') repeat;*/
+    background-color:               #C5DB4B !important;
 	border: 						solid 1px #CCCCCC;
 	-webkit-border-radius:			3px;
 	-moz-border-radius:				3px;
@@ -372,7 +373,7 @@
 .fb-album-header .albumCommentsShow:hover {
 	cursor: 						pointer;
 	text-decoration: 				none;
-	background-color: 				#ccc;
+	background-color: 				#C5DB4B !important;
 	border-color: 					#aaa;
 	color: 							#D54E21;
 	background: 					#ffffff; /* Old browsers */
@@ -452,7 +453,7 @@
 .fb-album-footer ul.TopButton li:hover {
 	cursor: 						pointer;
 	text-decoration: 				none;
-	background-color: 				#ccc;
+	background-color: 				#C5DB4B !important;
 	border-color: 					#aaa;
 	color: 							#D54E21;
 	background: 					#ffffff; /* Old browsers */

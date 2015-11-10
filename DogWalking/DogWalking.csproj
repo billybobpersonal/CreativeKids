@@ -282,7 +282,6 @@
     <Content Include="Content\font\roboto\Roboto-Regular.ttf" />
     <Content Include="Content\font\roboto\Roboto-Thin.ttf" />
     <Content Include="Layout.cshtml" />
-    <Content Include="MyAccountLayout.cshtml" />
     <None Include="Properties\PublishProfiles\creativekids %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\creativekids.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -362,18 +361,6 @@
     <Content Include="Views\MedicalInformation\Index.cshtml" />
     <Content Include="Login.Master" />
     <Content Include="Views\Gallery\Gallery.cshtml" />
-    <Content Include="Views\ClassTerm\Create.cshtml" />
-    <Content Include="Views\ClassTerm\Delete.cshtml" />
-    <Content Include="Views\ClassTerm\Details.cshtml" />
-    <Content Include="Views\ClassTerm\Edit.cshtml" />
-    <Content Include="Views\ClassTerm\Index.cshtml" />
-    <Content Include="Views\BakingClass\Create.cshtml" />
-    <Content Include="Views\BakingClass\Delete.cshtml" />
-    <Content Include="Views\BakingClass\Details.cshtml" />
-    <Content Include="Views\BakingClass\Edit.cshtml" />
-    <Content Include="Views\BakingClass\Index.cshtml" />
-    <Content Include="Views\MyAccount\Index.cshtml" />
-    <Content Include="Views\Parent\ParentDetailsPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -505,14 +492,11 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\BakingClassController.cs" />
     <Compile Include="Controllers\ChildController.cs" />
-    <Compile Include="Controllers\ClassTermController.cs" />
     <Compile Include="Controllers\EmergencyContactController.cs" />
     <Compile Include="Controllers\EnquiryController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\MedicalInformationController.cs" />
-    <Compile Include="Controllers\MyAccountController.cs" />
     <Compile Include="Controllers\ParentController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Default.aspx.cs">
@@ -530,14 +514,11 @@
       <DependentUpon>201507141958184_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\BakingClassModel.cs" />
     <Compile Include="Models\ChildModel.cs" />
-    <Compile Include="Models\ClassTermModel.cs" />
     <Compile Include="Models\EmergencyContactModel.cs" />
     <Compile Include="Models\EnquiryModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\MedicalInformationModel.cs" />
-    <Compile Include="Models\MyAccountModel.cs" />
     <Compile Include="Models\ParentModel.cs" />
     <Compile Include="Models\Registration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

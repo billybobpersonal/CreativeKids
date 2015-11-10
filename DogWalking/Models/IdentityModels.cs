@@ -43,15 +43,11 @@ namespace DogWalking.Models
 
         public DbSet<ChildModel> ChildModels { get; set; }
 
-        public System.Data.Entity.DbSet<DogWalking.Models.Registration> Registrations { get; set; }
+        public DbSet<Registration> Registrations { get; set; }
 
-        public System.Data.Entity.DbSet<DogWalking.Models.EmergencyContactModel> EmergencyContactModels { get; set; }
+        public DbSet<EmergencyContactModel> EmergencyContactModels { get; set; }
 
-        public System.Data.Entity.DbSet<DogWalking.Models.MedicalInformationModel> MedicalInformationModels { get; set; }
-
-        public System.Data.Entity.DbSet<DogWalking.Models.ClassTermModel> ClassTerms { get; set; }
-
-        public System.Data.Entity.DbSet<DogWalking.Models.BakingClassModel> BakingClassModels { get; set; }
+        public DbSet<MedicalInformationModel> MedicalInformationModels { get; set; }
     }
 }
 

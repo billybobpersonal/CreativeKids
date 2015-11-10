@@ -4,7 +4,7 @@
 <h3>Register with your <%: ProviderName %> account</h3>
 
     <asp:PlaceHolder runat="server">
-        <div class="form-horizontal form-padding">
+        <div class="form-horizontal">
             <h4>Association Form</h4>
             <hr />
             <asp:ValidationSummary runat="server" ShowModelStateErrors="true" CssClass="text-danger" />

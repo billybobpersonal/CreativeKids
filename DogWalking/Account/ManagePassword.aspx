@@ -2,14 +2,14 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <div class="form-horizontal form-padding">
+    <div class="form-horizontal">
         <section id="passwordForm">
             <asp:PlaceHolder runat="server" ID="setPassword" Visible="false">
                 <p>
                     You do not have a local password for this site. Add a local
                         password so you can log in without an external login.
                 </p>
-                <div class="form-horizontal form-padding">
+                <div class="form-horizontal">
                     <h4>Set Password Form</h4>
                     <asp:ValidationSummary runat="server" ShowModelStateErrors="true" CssClass="text-danger" />
                     <hr />
@@ -47,7 +47,7 @@
             </asp:PlaceHolder>
 
             <asp:PlaceHolder runat="server" ID="changePasswordHolder" Visible="false">
-                <div class="form-horizontal form-padding">
+                <div class="form-horizontal">
                     <h4>Change Password Form</h4>
                     <hr />
                     <asp:ValidationSummary runat="server" ShowModelStateErrors="true" CssClass="text-danger" />

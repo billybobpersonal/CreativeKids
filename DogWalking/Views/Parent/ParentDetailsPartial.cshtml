@@ -1,5 +1,5 @@
 ﻿
-@model DogWalking.Models.ParentModel
+@model DogWalking.Models.MyAccountModel
 
 @{
     Layout = "~/MyAccountLayout.cshtml";
@@ -10,58 +10,58 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
+    <title>Parent Details</title>
 </head>
 <body>
     <div>
         <hr />
         <dl class="dl-horizontal">
             <dt>
-                @Html.DisplayNameFor(model => model.FirstName)
+                @Html.DisplayNameFor(model => model.Parent.FirstName)
             </dt>
 
             <dd>
-                @Html.DisplayFor(model => model.FirstName)
+                @Html.DisplayFor(model => model.Parent.FirstName)
             </dd>
 
             <dt>
-                @Html.DisplayNameFor(model => model.LastName)
+                @Html.DisplayNameFor(model => model.Parent.LastName)
             </dt>
 
             <dd>
-                @Html.DisplayFor(model => model.LastName)
+                @Html.DisplayFor(model => model.Parent.LastName)
             </dd>
 
             <dt>
-                @Html.DisplayNameFor(model => model.Sex)
+                @Html.DisplayNameFor(model => model.Parent.Sex)
             </dt>
 
             <dd>
-                @Html.DisplayFor(model => model.Sex)
+                @Html.DisplayFor(model => model.Parent.Sex)
             </dd>
 
             <dt>
-                @Html.DisplayNameFor(model => model.HomeContactNumber)
+                @Html.DisplayNameFor(model => model.Parent.HomeContactNumber)
             </dt>
 
             <dd>
-                @Html.DisplayFor(model => model.HomeContactNumber)
+                @Html.DisplayFor(model => model.Parent.HomeContactNumber)
             </dd>
 
             <dt>
-                @Html.DisplayNameFor(model => model.CellphoneNumber)
+                @Html.DisplayNameFor(model => model.Parent.CellphoneNumber)
             </dt>
 
             <dd>
-                @Html.DisplayFor(model => model.CellphoneNumber)
+                @Html.DisplayFor(model => model.Parent.CellphoneNumber)
             </dd>
 
             <dt>
-                @Html.DisplayNameFor(model => model.EmailAddress)
+                @Html.DisplayNameFor(model => model.Parent.EmailAddress)
             </dt>
 
             <dd>
-                @Html.DisplayFor(model => model.EmailAddress)
+                @Html.DisplayFor(model => model.Parent.EmailAddress)
             </dd>
 
         </dl>

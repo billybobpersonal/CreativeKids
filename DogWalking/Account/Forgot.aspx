@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-md-8">
             <asp:PlaceHolder id="loginForm" runat="server">
-                <div class="form-horizontal form-padding">
+                <div class="form-horizontal">
                     <h4>Forgot your password?</h4>
                     <hr />
                     <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">

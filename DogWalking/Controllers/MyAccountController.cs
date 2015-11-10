@@ -10,6 +10,8 @@ namespace DogWalking.Controllers
         {
             MyAccountModel model = new MyAccountModel();
 
+
+
             return View(model);
         }
     }

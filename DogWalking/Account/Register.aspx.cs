@@ -22,19 +22,9 @@ namespace DogWalking.Account
                 //string code = manager.GenerateEmailConfirmationToken(user.Id);
                 //string callbackUrl = IdentityHelper.GetUserConfirmationRedirectUrl(code, user.Id, Request);
                 //manager.SendEmail(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>.");
-                
+
                 signInManager.SignIn( user, isPersistent: false, rememberBrowser: false);
-                ApplicationDbContext db = new ApplicationDbContext();
-                db.ParentModels.Add(new ParentModel
-                {
-                    ParentId = Guid.NewGuid(),
-                    ParentUserId = Guid.Parse(user.Id),
-                    EmailAddress = user.UserName
-                });
-                db.SaveChanges();
-
-
-        IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
             }
             else 
             {

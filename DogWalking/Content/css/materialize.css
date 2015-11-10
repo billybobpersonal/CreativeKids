@@ -2209,7 +2209,7 @@ td, th {
     border-bottom: 1px solid #e0e0e0; }
     .collection .collection-item:last-child {
       border-bottom: none; }
-    .collection .collection-item.Active {
+    .collection .collection-item.active {
       background-color: #26a69a;
       color: #eafaf9; }
   .collection a.collection-item {
@@ -2220,7 +2220,7 @@ td, th {
     -ms-transition: 0.25s;
     transition: 0.25s;
     color: #26a69a; }
-    .collection a.collection-item:not(.Active):hover {
+    .collection a.collection-item:not(.active):hover {
       background-color: rgba(0, 0, 0, 0.08); }
   .collection.with-header .collection-header {
     border-bottom: 1px solid #e0e0e0;
@@ -2241,7 +2241,7 @@ td, th {
       font-size: 1rem; }
       .collection.pagination li a {
         padding: 0px 5px; }
-      .collection.pagination li.Active {
+      .collection.pagination li.active {
         background-color: #03a9f4;
         color: #FFF; }
       .collection.pagination li:hover {
@@ -5031,7 +5031,7 @@ nav {
       -o-transition: background-color 0.3s;
       -ms-transition: background-color 0.3s;
       transition: background-color 0.3s; }
-      nav ul li:hover, nav ul li.Active {
+      nav ul li:hover, nav ul li.active {
         background-color: rgba(0, 0, 0, 0.1); }
     nav ul a {
       font-size: 1rem;
@@ -5063,9 +5063,9 @@ nav {
       -o-transition: color 0.3s;
       -ms-transition: color 0.3s;
       transition: color 0.3s; }
-    nav .input-field label.Active i {
+    nav .input-field label.active i {
       color: #fff; }
-    nav .input-field label.Active {
+    nav .input-field label.active {
       -webkit-transform: translateY(0);
       -moz-transform: translateY(0);
       -ms-transform: translateY(0);
@@ -5903,14 +5903,14 @@ li.no-padding {
   transition: opacity 0.4s; }
   .materialboxed:hover {
     will-change: left, top, width, height; }
-    .materialboxed:hover:not(.Active) {
+    .materialboxed:hover:not(.active) {
       -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
       filter: "alpha(opacity=(${iefactor}))";
       -moz-opacity: 0.8;
       -khtml-opacity: 0.8;
       opacity: 0.8; }
 
-.materialboxed.Active {
+.materialboxed.active {
   cursor: zoom-out; }
 
 #materialbox-overlay {
@@ -5967,7 +5967,7 @@ label {
     -o-transition: 0.2s ease-out;
     -ms-transition: 0.2s ease-out;
     transition: 0.2s ease-out; }
-  .input-field label.Active {
+  .input-field label.active {
     font-size: 0.8rem;
     -webkit-transform: translateY(-130%);
     -moz-transform: translateY(-130%);
@@ -5995,7 +5995,7 @@ label {
     -o-transition: color 0.2s;
     -ms-transition: color 0.2s;
     transition: color 0.2s; }
-    .input-field .prefix.Active {
+    .input-field .prefix.active {
       color: #26a69a; }
   .input-field .prefix ~ input, .input-field .prefix ~ textarea {
     margin-left: 3rem;
@@ -6434,9 +6434,9 @@ input[type=range] + .thumb {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); }
-  input[type=range] + .thumb.Active {
+  input[type=range] + .thumb.active {
     border-radius: 50% 50% 50% 0; }
-    input[type=range] + .thumb.Active .value {
+    input[type=range] + .thumb.active .value {
       color: #fff;
       margin-left: -1px;
       margin-top: 8px;
@@ -6557,7 +6557,7 @@ ul.table-of-contents a {
     color: #a8a8a8;
     padding-left: 19px;
     border-left: 1px solid #ea4a4f; }
-  ul.table-of-contents a.Active {
+  ul.table-of-contents a.active {
     font-weight: 500;
     padding-left: 18px;
     border-left: 2px solid #ea4a4f; }
@@ -6584,7 +6584,7 @@ ul.table-of-contents a {
       float: none;
       padding: 0 15px;
       width: 240px; }
-      ul.side-nav li:hover, ul.side-nav li.Active {
+      ul.side-nav li:hover, ul.side-nav li.active {
         background-color: #ddd; }
     ul.side-nav a {
       color: #444; }
@@ -6625,7 +6625,7 @@ ul.side-nav.full, ul.side-nav.fixed {
     -o-transition: background-color 0s;
     -ms-transition: background-color 0s;
     transition: background-color 0s; }
-    ul.side-nav.full li:hover, ul.side-nav.full li.Active, ul.side-nav.fixed li:hover, ul.side-nav.fixed li.Active {
+    ul.side-nav.full li:hover, ul.side-nav.full li.active, ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
       background-color: #ddd; }
   ul.side-nav.full a, ul.side-nav.fixed a {
     display: block;
@@ -6648,9 +6648,9 @@ ul.side-nav.fixed {
       left: auto; }
  }
 
-ul.side-nav .collapsible-body li.Active, ul.side-nav.fixed .collapsible-body li.Active {
+ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.active {
   background-color: #ee6e73; }
-  ul.side-nav .collapsible-body li.Active a, ul.side-nav.fixed .collapsible-body li.Active a {
+  ul.side-nav .collapsible-body li.active a, ul.side-nav.fixed .collapsible-body li.active a {
     color: #fff; }
 
 #sidenav-overlay {
@@ -6699,7 +6699,7 @@ ul.side-nav .collapsible-body li.Active, ul.side-nav.fixed .collapsible-body li.
   .preloader-wrapper.big {
     width: 64px;
     height: 64px; }
-  .preloader-wrapper.Active {
+  .preloader-wrapper.active {
     /* duration: 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
     -webkit-animation: container-rotate 1568ms linear infinite;
     animation: container-rotate 1568ms linear infinite; }
@@ -6743,22 +6743,22 @@ ul.side-nav .collapsible-body li.Active, ul.side-nav.fixed .collapsible-body li.
  * specific properties properly, treats them as -webkit-animation, and overrides the
  * other animation rules. See https://github.com/Polymer/platform/issues/53.
  */
-.Active .spinner-layer.spinner-blue {
+.active .spinner-layer.spinner-blue {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-.Active .spinner-layer.spinner-red {
+.active .spinner-layer.spinner-red {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-.Active .spinner-layer.spinner-yellow {
+.active .spinner-layer.spinner-yellow {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-.Active .spinner-layer.spinner-green {
+.active .spinner-layer.spinner-green {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
@@ -7015,12 +7015,12 @@ ul.side-nav .collapsible-body li.Active, ul.side-nav.fixed .collapsible-body li.
     -webkit-transform: rotate(-129deg);
     transform: rotate(-129deg); }
 
-.Active .circle-clipper.left .circle {
+.active .circle-clipper.left .circle {
   /* duration: ARCTIME */
   -webkit-animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-.Active .circle-clipper.right .circle {
+.active .circle-clipper.right .circle {
   /* duration: ARCTIME */
   -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
@@ -7133,7 +7133,7 @@ ul.side-nav .collapsible-body li.Active, ul.side-nav.fixed .collapsible-body li.
         opacity: 0; }
         .slider ul.slides li .caption p {
           color: #e0e0e0; }
-      .slider ul.slides li.Active {
+      .slider ul.slides li.active {
         z-index: 2; }
   .slider ul.indicators {
     position: absolute;
@@ -7159,7 +7159,7 @@ ul.side-nav .collapsible-body li.Active, ul.side-nav.fixed .collapsible-body li.
       -moz-border-radius: 50%;
       border-radius: 50%;
       background-clip: padding-box; }
-      .slider ul.indicators li.indicator-item.Active {
+      .slider ul.indicators li.indicator-item.active {
         background-color: #4CAF50; }
 
 /* ==========================================================================

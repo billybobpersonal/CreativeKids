@@ -73,7 +73,7 @@ namespace DogWalking.Controllers
                     var credential = new NetworkCredential
                     {
                         UserName = "ryanblake101@gmail.com",  // replace with valid value
-                        Password = "M0nk3y02"  // replace with valid value
+                        Password = "Pinewood@123"  // replace with valid value
                     };
                     smtp.Credentials = credential;
                     smtp.Host = "smtp.gmail.com";

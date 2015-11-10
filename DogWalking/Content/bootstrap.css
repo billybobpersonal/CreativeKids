@@ -1956,43 +1956,43 @@ textarea.input-lg {
   }
 }
 
-.form-horizontal form-padding .control-label,
-.form-horizontal form-padding .radio,
-.form-horizontal form-padding .checkbox,
-.form-horizontal form-padding .radio-inline,
-.form-horizontal form-padding .checkbox-inline {
+.form-horizontal .control-label,
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
   padding-top: 7px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.form-horizontal form-padding .form-group {
+.form-horizontal .form-group {
   margin-right: -15px;
   margin-left: -15px;
 }
 
-.form-horizontal form-padding .form-group:before,
-.form-horizontal form-padding .form-group:after {
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
   display: table;
   content: " ";
 }
 
-.form-horizontal form-padding .form-group:after {
+.form-horizontal .form-group:after {
   clear: both;
 }
 
-.form-horizontal form-padding .form-group:before,
-.form-horizontal form-padding .form-group:after {
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
   display: table;
   content: " ";
 }
 
-.form-horizontal form-padding .form-group:after {
+.form-horizontal .form-group:after {
   clear: both;
 }
 
 @media (min-width: 768px) {
-  .form-horizontal form-padding .control-label {
+  .form-horizontal .control-label {
     text-align: right;
   }
 }

@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
 
-    <div class="form-horizontal form-padding">
+    <div class="form-horizontal">
         <h4>Add a phone number</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />

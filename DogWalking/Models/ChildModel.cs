@@ -10,7 +10,6 @@ namespace DogWalking.Models
         public Guid ChildId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public DateTime DateOfBirth { get; set; }
         public int Age { get; set; }
         public string Sex { get; set; }
         public virtual EmergencyContactModel EmergencyContact { get; set; }
